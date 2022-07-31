@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "merienda";
+  src: url("Merienda-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.clearFix:before,
+.clearFix:after {
+  content: "" ;
+  display: table;
+}
+
+.clearFix:after {
+  clear: both;
+}
+/* Header */
+.headerWrapper {
+  padding: 1em
+}
+
+.border {
+  border: 5px solid silver;
+  border-radius: 1em;
+}
+
+.headerLogo {
+  width: 15%;
+  height: auto;
+  float: left;
+}
+
+.navMenu {
+  margin: .5em 0 0 0;
+}
+
+
+.listItemNav {
+  display: inline-block;
+  float: left;
+  margin-left: .2em;
+  font-size: 1.2em;
+  font-family: "merienda";
+  padding: .5em;
+  color: #0cf;
+}
+
+.listItemNav>a {
+  text-decoration: none;
+
+}
+/* /Header */
+
+/* SVG Colors */
+.margin {
+  fill: deepskyblue;
+}
+
+.phone {
+  fill: green;
+}
+
+.loop-1 {
+  fill: deeppink;
+}
+
+.loop-2 {
+  fill: orange;
+}
+
+.loop-3 {
+  fill: deepskyblue;
+}
+
+svg {
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,1));
+}
+/* /SVG */
+
+div.mainWrapper {
+  padding: 1em;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 0px;
+}
+
+.socialName {
+  font-style: italic;
+  font-family: merienda;
+  text-decoration: underline;
+}
